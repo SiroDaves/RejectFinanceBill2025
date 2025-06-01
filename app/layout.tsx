@@ -10,7 +10,7 @@ import "./css/globals.scss";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Objection of the Finance Bill 2025 (National Assembly Bills No. 19 of 2025",
+  title: "#RejectionFinanceBill2025 | Objection of the Finance Bill 2025 (National Assembly Bills No. 19 of 2025",
   description:
     "The 2025 Finance Bill proposed the deletion of Section 59A(1B) in the Tax Procedures Act, which prohibits KRA from accessing Mpesa Personal Data. Submit your Memoranda",
 };
