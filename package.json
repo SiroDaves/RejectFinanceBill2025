@@ -1,0 +1,43 @@
+{
+  "name": "rfb2025",
+  "description": "Reject Finance Bill 2025",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@next/third-parties": "^15.1.4",
+    "@types/nodemailer": "^6.4.17",
+    "axios": "^1.7.9",
+    "cra-template": "^1.2.0",
+    "lottie-react": "^2.4.0",
+    "next": "^15.1.4",
+    "nodemailer": "^6.9.16",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-fast-marquee": "^1.6.5",
+    "react-icons": "^5.4.0",
+    "react-toastify": "^11.0.2",
+    "sharp": "^0.33.5"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.5",
+    "@types/react": "19.0.4",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "^15.1.4",
+    "postcss": "^8.4.49",
+    "sass": "^1.83.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3"
+  },
+  "engines": {
+    "node": "^16.8.0 || ^18.0.0 || ^19.0.0 || ^20.0.0 || ^21.0.0 || ^22.12.0"
+  }
+}
