@@ -5,7 +5,6 @@ import { IoStar } from "react-icons/io5";
 
 const Footer: React.FC = () => {
   const currentYear: number = new Date().getFullYear();
-   const githubForkUrl = `${bio.github}/RejectFinanceBill2025/fork`;
   return (
     <div className="relative border-t bg-[#0d1224] border-[#353951] text-white">
       <div className="mx-auto px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem] py-6 lg:py-10">
@@ -19,7 +18,7 @@ const Footer: React.FC = () => {
           <div className="flex items-center gap-5">
             <Link
               target="_blank"
-              href={githubForkUrl}
+              href=`${bio.github}/RejectFinanceBill2025`
               className="flex items-center gap-2 uppercase hover:text-[#16f2b3]"
             >
               <IoStar />
@@ -27,7 +26,7 @@ const Footer: React.FC = () => {
             </Link>
             <Link
               target="_blank"
-              href={githubForkUrl}
+              href=`${bio.github}/RejectFinanceBill2025/fork`
             className="flex items-center gap-2 uppercase hover:text-[#16f2b3]"
             >
             <CgGitFork />
