@@ -4,8 +4,7 @@ import { BsGithub } from "react-icons/bs";
 
 const Footer: React.FC = () => {
   const currentYear: number = new Date().getFullYear();
-   const githubUrl = `${bio.github}/RejectFinanceBill2025/fork`;
-   const githubForkUrl = `${bio.github}/RejectFinanceBill2025/fork`;
+   const githubUrl = `${bio.github}/RejectFinanceBill2025`;
   return (
     <div className="relative border-t bg-black border-[#353951] text-white">
       <div className="mx-auto px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem] py-6 lg:py-10">
@@ -22,8 +21,8 @@ const Footer: React.FC = () => {
               href={githubUrl}
               className="flex items-center gap-2 uppercase hover:text-[#16f2b3]"
             >
-              <BsGithub size={30} />
-              <span>Github</span>
+              <BsGithub size={25} />
+              <span>Find this project on Github</span>
             </Link>
         </div>
       </div>

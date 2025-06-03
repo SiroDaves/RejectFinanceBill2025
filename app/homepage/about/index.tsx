@@ -11,7 +11,7 @@ const AboutSection: React.FC<AboutSectionProps> = () => {
         <div className="w-[80px] h-[80px] bg-red-100 rounded-full absolute -top-3 left-0 translate-x-1/2 filter blur-3xl opacity-30"></div>
         <div className="flex items-center justify-start relative">
           <span className="bg-[#ef4444] absolute left-0 w-fit text-white px-5 py-3 text-xl rounded-md">
-            ABOUT FINANCE BILL 2025
+            ABOUT THE FINANCE BILL 2025
           </span>
           <span className="w-full h-[2px] bg-[#c2410c]"></span>
         </div>
