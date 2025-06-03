@@ -68,13 +68,13 @@ const RejectForm: React.FC = () => {
   };
 
   return (
-    <div className="max-w-3xl text-white rounded-lg border border-[#464c6a] p-3 lg:p-5">
+    <div className="max-w-3xl text-white rounded-lg border border-black p-3 lg:p-5">
       <p className="text-sm text-[#22c55e]">{"You will reject the finance bill by sending the email via the form below. The email details are already typed for you but you are free to edit it as you see fit!"}</p>
       <div className="mt-6 flex flex-col gap-4">
         <div className="flex flex-col gap-2">
           <label className="text-black">Your Name (it will be appended at the bottom of the message): </label>
           <input
-            className="bg-[#10172d] w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
+            className="bg-black w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
             type="text"
             maxLength={100}
             required={true}
@@ -87,7 +87,7 @@ const RejectForm: React.FC = () => {
         <div className="flex flex-col gap-2">
           <label className="text-black">Your Email (feel free to use any email as long as it is valid): </label>
           <input
-            className="bg-[#10172d] w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
+            className="bg-black w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
             type="email"
             maxLength={100}
             required={true}
@@ -104,7 +104,7 @@ const RejectForm: React.FC = () => {
         <div className="flex flex-col gap-2">
           <label className="text-black">Your Subject: </label>
           <input
-            className="bg-[#10172d] w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
+            className="bg-black w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
             type="text"
             maxLength={100}
             required={true}
@@ -117,7 +117,7 @@ const RejectForm: React.FC = () => {
         <div className="flex flex-col gap-2">
           <label className="text-black">Your Message goes here: </label>
           <textarea
-            className="bg-[#10172d] w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
+            className="bg-black w-full border rounded-md border-[#353a52] focus:border-[#16f2b3] ring-0 outline-0 transition-all duration-300 px-3 py-2"
             maxLength={20000}
             name="message"
             required={true}
